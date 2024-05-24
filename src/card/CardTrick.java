@@ -21,12 +21,17 @@ public class CardTrick {
             Card c = new Card();
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+            
         }
         
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
         // add one luckcard hard code 2,clubs
+        Card luckyCard = new Card();
+luckyCard.setValue(7);  // Card number of your choice
+luckyCard.setSuit("Hearts");  // Suit of your choice
+magicHand[magicHand.length - 1] = luckyCard;
     }
     
 }
